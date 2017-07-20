@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+.clearfix{
+	display: block;
+	clear: both;
+	content: '';
+}
+.nav{
+	width: 100%;
+}
+.nav img{
+	width: 100%;
+}
+.banner{
+	width: 100%;
+	margin-top: -1%;
+}
+.swiper-container{
+	width: 100%;
+}
+.swiper-container img{
+	width: 100%;
+}
+.daohang{
+	width: 100%;
+	margin-top: 10%;
+}
+.daohang img{
+	width: 2.8rem;
+	height: 2.8rem;
+}
+.daohang p{
+	margin-top: 0.7rem;
+}
+.daohang ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.daohang li{
+	width: 25%;
+	text-align: center;
+}
+.daohang li:nth-child(5){
+	margin-top: 1.40rem
+}
+.daohang li:nth-child(6){
+	margin-top: 1.40rem
+}
+.daohang li:nth-child(7){
+	margin-top: 1.40rem
+}
+.daohang li:nth-child(8){
+	margin-top: 1.40rem
+}
+.active_nav{
+	width: 88%;
+	margin-left: 6%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2.2rem;
+}
+.active_nav>span:first-child{
+	border-left: solid 0.5rem red;
+	padding-left: 1rem;
+}
+.active span{
+		font-size: 25px;
+}
+.fenge{
+	width: 88%;
+	height: 5px;
+	background-color: #E3E3E3;
+	border: solid 0px;
+	margin-left: 6%;
+	margin-top: 1rem;
+}
+.paihang{
+	width: 88%;
+	margin-left: 6%;
+	height: 5rem;
+	display: flex;
+	margin-top: 1.4rem;
+}
+.paihang span{
+	font-size: 15px;
+	color: red;
+}
+.num{
+	width: 10%;
+	height: 5rem;
+	background-color: red;
+	text-align: center;
+	line-height: 4.7rem;
+	color: white;
+	font-size: 30px;
+}
+.paihang img{
+	width: 30%;
+	/*height: 5rem;*/ 
+}
+.paihang>div:last-child{
+	width: 60%;
+	height: 5rem;
+	display: flex;
+	background-color: #E3E3E3;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+}
+.huasuan{
+	margin-left: 6%;
+	margin-top: 1rem;
+	width: 88%;
+	height: 2.86rem;
+	background-color: #E3E3E3;
+	text-align: center;
+	line-height: 2.86rem;
+	color: #666666;
+}
+.shangpin{
+	width: 88%;
+	height: 13rem;
+	margin-left: 6%;
+	margin-top: 1.4rem;
+}
+.shangpin img{
+	width: 25%;
+	height: 13rem;
+}
+.shangpin ul{
+	float: right;
+	width: 25%;
+	height: 12.6rem;
+}
+.shangpin li{
+	width: 100%;
+	height: 3.1rem;
+	text-align: center;
+	line-height: 3.1rem;
+	border: solid 1px #E3E3E3;
+}
+.kehuduan{
+	width: 88%;
+	margin-left: 6%;
+	margin-top: 1rem;
+}
+.kehuduan img{
+	width: 33%;
+	height: 6rem;
+}
+.kehuduan img:nth-child(2),:nth-child(3){
+	margin-left: -0.2rem;
+}
+.denglu{
+	width: 100%;
+	background-color: #E3E3E3;
+	margin-top: 1rem;
+}
+.denglu span{
+	line-height: 60px;
+}
+.denglu span:first-child{
+	margin-left: 6%;
+}
+.denglu span:nth-child(2){
+	margin-left: 6%;
+}
+.denglu span:nth-child(3){
+	margin-left: 45%;
+}
+.footer{
+	width: 100%;
+	background-color: #EBEBEB;
+	text-align: center;
+	line-height: 70px;
+}
+.footer span:first-child{
+	font-size: 20px;
+}
+.footer span:last-child{
+	margin-top: -35%;
+}
